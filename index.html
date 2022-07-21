@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TodoList</title>
+  <link rel="stylesheet" href="css/common.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <script src="https://use.fontawesome.com/58c6173a4e.js"></script>
+</head>
+<body>
+  <div class="todo-wrap" data-config='{
+    "plusBtn": "j-plus-btn",
+    "inputArea": "input-wrap",
+    "addBtn": "j-add-item",
+    "list": "item-list",
+    "itemClass": "item"
+  }'>
+  <div class="list-hd">
+    <h2>TodoList</h2>
+    <a href="javascript:;" class="j-plus-btn fa fa-plus"></a>
+  </div>
+  <div class="input-wrap">
+    <div class="text-input">
+      <input type="text" class="content" />
+    </div>
+    <div class="add-btn">
+      <button class="j-add-item">新增項目</button>
+    </div>
+  </div>
+  <div class="list-wrap">
+    <ul class="item-list"></ul>
+  </div>
+</div>
+<script type="text/javascript" src="js/utils.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
